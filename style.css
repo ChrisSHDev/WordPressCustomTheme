@@ -226,3 +226,44 @@ footer.main-footer a {
     margin:0;
     padding:0;
 }
+
+
+.clr{
+    clear:both;
+}
+
+.sub-nav{
+    margin-top: 10px;
+    float: right;
+    width: 300px;
+}
+
+.suv-nav ul{
+    float: right;
+}
+.sub-nav .parent-link {
+    font-weight: bold;
+    color: #000;
+    float: left;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #009acd;
+}
+
+.sub-nav .parent-link a{
+    font-weight: bold;
+    color: #000;
+}
+.sub-nav .current_page_item{
+    font-weight: bold;
+}
+
+.side-widget{
+    margin-bottom: 20px;
+
+}
+.side-widget li {
+    list-style: none;
+    line-height: 2.1em;
+    border-bottom: 1px dotted #ccc;
+}
