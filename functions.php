@@ -26,6 +26,14 @@
             'before_title' => '<h3>',
             'after_title' => '</h3>'
         ));
+        register_sidebar(array(
+            'name' => 'Showcase',
+            'id' => 'showcase',
+            'before_widget' => '<div class="showcase">',
+            'after_widget' => '</div>',
+            'before_title' => '<h3>',
+            'after_title' => '</h3>'
+        ));
 
         register_sidebar(array(
             'name' => 'Box1',
@@ -54,14 +62,7 @@
             'after_title' => '</h3>'
         ));
 
-        register_sidebar(array(
-            'name' => 'Showcase',
-            'id' => 'showcase',
-            'before_widget' => '<div class="showcase">',
-            'after_widget' => '</div>',
-            'before_title' => '<h3>',
-            'after_title' => '</h3>'
-        ));
+
     }
 
     add_action('widgets_init', 'init_widgets');
